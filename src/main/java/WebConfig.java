@@ -9,10 +9,10 @@ public class WebConfig implements WebMvcConfigurer {
 
     @Override
     public void addCorsMappings(CorsRegistry registry) {
-        registry.addMapping("/**") // Allows all endpoints
-                .allowedOrigins("http://localhost:8082") // URL of your frontend
-                .allowedMethods("GET", "POST", "PUT", "DELETE") // Methods you want to allow
+        registry.addMapping("/**")
+                .allowedOrigins("https://survey-neon.vercel.app/")
+                .allowedMethods("GET", "POST", "PUT", "DELETE")
                 .allowedHeaders("*")
-                .allowCredentials(true);// Allow any headers
+                .allowCredentials(true);
     }
 }

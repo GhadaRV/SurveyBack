@@ -20,7 +20,7 @@ import java.util.stream.Collectors;
 
 
 @RestController
-@CrossOrigin(origins = "http://localhost:8082")
+@CrossOrigin(origins = "https://survey-neon.vercel.app/")
 @RequestMapping("/api/surveys")
 public class ResultController {
     @Autowired

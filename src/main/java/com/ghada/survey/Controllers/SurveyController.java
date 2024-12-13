@@ -10,7 +10,7 @@ import org.springframework.web.server.ResponseStatusException;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:8082")
+@CrossOrigin(origins = "https://survey-neon.vercel.app/")
 @RequestMapping("/surveys")
 public class SurveyController {
 
