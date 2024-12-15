@@ -4,7 +4,7 @@
 This is the backend of a survey app. Its purpose is to allow team members to rate surveys. 
 I've added the admin interface in order to allow creating new survey and checking the results of the team member ratings. 
 
-You can run this app locally. But first, you'll have to do the essential configuration for your postgres database and update the application.properties file accordingly. 
+You can run this app locally. But first, you'll have to do the essential configuration for your postgres database, update the application.properties file, and make sure to adjust the CORS configuration accordingly. 
 
 I tried to make it simple to test this application and deployed it. 
 
